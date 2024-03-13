@@ -1,0 +1,7 @@
+def remove_spaces(input_string):
+    return input_string.replace(" ", "")
+
+# Example usage:
+input_string = "Hello, world! This is a test."
+output_string = remove_spaces(input_string)
+print(output_string)
